@@ -7,7 +7,7 @@ printf '\n\nPotrzebuje uprawnien zeby móc zainstalować papiezmowi\n'
 sudo rm -f /usr/local/bin/papiezmowi
 sudo rm -f /usr/local/bin/papiez-papa
 sudo mv papiezmowi /usr/local/bin
-curl https://raw.githubusercontent.com/yungtry/papiezmowi/master/papiez-papa.sh > papiez-papa
+curl https://raw.githubusercontent.com/miki164/papiezmowi/master/papiez-papa.sh > papiez-papa
 chmod +x papiez-papa
 sudo mv papiez-papa /usr/local/bin
 echo '
