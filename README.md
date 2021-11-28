@@ -1,4 +1,5 @@
 # Papież mówi
+Fork dla pythona 3.x
 Papież mówi to polski odpowiednik unixowej komendy [cowsay]. Po wpisaniu komendy wyświetla Jana Pawła II z komiksowym dymkiem i własnym lub losowym cytatem.
 
 ### Instalacja
