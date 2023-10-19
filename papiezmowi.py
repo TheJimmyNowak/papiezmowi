@@ -1,12 +1,15 @@
 #!/usr/bin/python3
 #-*- coding: utf-8 -*-
-import sys, random
+import sys
+import random
+import os
 
 def lettersCount(words):
 	return len(words)
 
 def drukujPapsona(co, lenght):	
-	dymek = lenght + 2
+	papaj_station = os.get_terminal_size().columns
+	dymek = papaj_station if lenght + 2 > papaj_station  else lenght +2
 	#spaghetti code aka kremowka code
 	print ("██" * dymek)
 	print  ("█ " + co)
